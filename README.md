@@ -1,8 +1,17 @@
-# Curso de programación full stack
+# About the project
 
-## MÓDULO 2 - Repositorio y WorkFlow
+## What is this project about?
 
-**Autor:** Ramiro Mateo Vera
+Ramiro Mateo Vera
 
-**Descripción:** este repositorio fue creado con fines académicos por lo que en el futuro 
-cercano será eliminado.
+## Who's the author?
+
+## Where can I see it working?
+
+## How does it work?
+
+## What does it have?
+
+## How often do you update it?
+
+## Have you used external libraries?
