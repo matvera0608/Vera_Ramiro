@@ -1,30 +1,24 @@
 // I create a variable called devProfile to do a sentences about a developer profile
 
-let developerProfile = {
+let developer_Profile = {
      full_Name : "Vera Ramiro Mateo",
      age : 21,
      profession : "System analyst student",
      skills : ["Python", "Java", "Prototype designer", "MySQL", "PseInt", "C#", "Access"],
      contact:
      {
-          email: "",
-          phone: "",
-          location : ""
+          email: "veram0227@gmail.com",
+          phone: "+543751358814",
+          location : "Eldorado"
      }
 }
 
-function self_Presentation(developerProfile)
+function self_Presentation(Profile)
 {
-     this.full_Name = full_Name;
-     this.age = age;
-     this.profession = profession;
-     this.skills = skills;
-     this.contact = contact;
-     this.email = email;
-     this.phone = phone;
-     this.location = location;
 
-     return "Hello everyone, my name is " + this.full_Name + " and I am " + this.age + " years old. I am a " + this.profession + " and I have skills in " + this.skills.join(",");
+     profile = "Hello everyone, my name is " + Profile.full_Name + " and I am " + Profile.age + " years old. I am a " + Profile.profession + " and I have skills in " + Profile.skills.join(",") + ". Finally, I'm from " + Profile.location;
+
+     return profile;
 }
 
-console.log(self_Presentation())
+let result = self_Presentation(developer_Profile);
