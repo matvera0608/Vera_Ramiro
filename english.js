@@ -13,12 +13,14 @@ let developer_Profile = {
      }
 }
 
+//This function prints a sentence about me like developer Profile :-).
 function self_Presentation(Profile)
 {
-
-     profile = "Hello everyone, my name is " + Profile.full_Name + " and I am " + Profile.age + " years old. I am a " + Profile.profession + " and I have skills in " + Profile.skills.join(",") + ". Finally, I'm from " + Profile.location;
-
-     return profile;
+     Profile = `Hello everyone, my name is ${Profile.full_Name} and I am ${Profile.age} years old. I am a ${Profile.profession}  and I have skills in  ${Profile.skills.join(", ")}. Finally, I'm from  ${Profile.contact.location}`;
+     return Profile;
 }
 
-let result = self_Presentation(developer_Profile);
+let sentence = self_Presentation(developer_Profile);
+
+console.log(sentence);
+
